@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
 
 <head>
@@ -12,11 +9,14 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-    <h1> My Portfolio</h1>
+    <h1 target="_blank"> My Portfolio</h1>
+
     <div class="navBar">
 
         <div class="navBar navBar1"> About </div>
@@ -31,7 +31,9 @@
             <div class="image-container">
                 <img src="./images/Aid.jpg" alt="Picture">
             </div>
-            <div class="caption">Picture</div>
+            <!--<div class="caption">Picture</div>-->
+
+            <button type="onclick">Log in</button>
         </div>
 
         <div class="bodyArea bodyArea2" ; style="align-items:top">
@@ -46,12 +48,11 @@
                     <ul>
                         <li>Bundesliga</li>
                         <li>Champions League</li>
-                        <li> World Championship </li>
+
                     </ul>
                 </li>
                 <li>Cooking
                     <ul>
-                        <li>5 Ingredients Recipes</li>
                         <li>International Recipes</li>
                         <li>Traditional Recipes</li>
                     </ul>
@@ -64,29 +65,34 @@
                 </li>
             </ul>
         </div>
-        <div class="bodyArea bodyArea3" ; style="align-items:center">
+        <div class="bodyArea bodyArea3" ; style="align-items:top">
 
             <h3> My Actuel Teachers at Techstarter</h3>
 
 
             <table style="border: 1px solid black; width:100%">
 
-                <tr>
+                <tr style="td:first-child::first-letter {
+                    color: green;
+                    font-weight: bold;
+                }">
                     <th style="border:1px solid black">Name</th>
                     <th style="border:1px solid black">First Name</th>
                     <th style="border:1px solid black">City </th>
                 </tr>
                 <tr>
-                    <td style="border:1px solid black"> Lukas </td>
+                    <td style=" border:1px solid black"> Lukas </td>
                     <td style="border:1px solid black"> Probst </td>
                     <td style="border:1px solid black">Tübingen </td>
                 </tr>
                 <tr>
-                    <td style="border:1px solid black"> Suheib </td>
+
+                    <td style=" border:1px solid black"> Suheib </td>
                     <td style="border:1px solid black"> Marzouka </td>
                     <td style="border:1px solid black"> Frankfurt</td>
                 </tr>
                 <tr>
+
                     <td style="border:1px solid black"> Kevin </td>
                     <td style="border:1px solid black"> Krazius </td>
                     <td style="border:1px solid black"> Heilbronn </td>
@@ -96,7 +102,37 @@
             </table>
             </h3>
         </div>
-        <div class="bodyArea bodyArea4" ; style="align-items:center"></div>
+        <div class="bodyArea bodyArea4" ; style="align-items:top">
+            <ul>
+                <strong>List of professional activities </strong>
+                <br>
+                <br>
+                <br>
+
+                <li>Universities
+                    <ul>
+                        <li>Algeria</li>
+                        <li>France</li>
+                        <li> Germany </li>
+                    </ul>
+                </li>
+                <li>Institutes
+                    <ul>
+                        <li>Max Planck Institute</li>
+                        <li>Kirchhoff Institute</li>
+                        <li>High frequency Technics Inst.</li>
+                    </ul>
+                </li>
+                <li>Research Centers
+                    <ul>
+                        <li> CNRS</li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
     </div>
 </body>
 
